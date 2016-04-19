@@ -1,0 +1,19 @@
+.traffic-light {
+  .light{
+    display: inline-block;
+    background-color: red;
+    overflow: hidden;
+    width: 140px;
+    height: 328px;
+  }
+  .red{
+      background-position: 0,0;
+  }
+  .yellow{
+    background-position: -78px , 0;
+  }
+  .green{
+    background-position: -156px , 0;
+  }
+
+}

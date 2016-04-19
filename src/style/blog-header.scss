@@ -1,0 +1,63 @@
+.blog-header {
+  .teaserimage-image {
+    min-height: 450px;
+    background: no-repeat, top;
+    background-size: cover;
+    margin-bottom: 64px;
+  }
+
+  .logo-readium {
+    font-size: 3em;
+    color: black;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    z-index: 99;
+    i {
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+
+  .user_avatar {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    top: 385px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    margin: auto;
+    background-repeat: no-repeat;
+  }
+
+  .blog-font{
+    text-align: center;
+    .blog-title {
+      font-size: 50px;
+      font-weight: 700;
+      letter-spacing: -2px;
+      outline: 0;
+    }
+
+    .blog-description {
+      color: #666;
+      font-size: 18px;
+      line-height: 1.5px;
+      font-weight: 400;
+      margin: 20px 20px;
+    }
+    .github-icon {
+      color: black;
+    }
+  }
+
+}
