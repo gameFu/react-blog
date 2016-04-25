@@ -13,7 +13,7 @@ class BlogHeaderComponent extends Component {
       backgroundImage: user_avatar_imageUrl
     }
     return (
-      <div className="blog-header">
+      <header className="blog-header">
         <a href = "#" className="logo-readium">
           <i className="fa fa-home">
           </i>
@@ -29,7 +29,7 @@ class BlogHeaderComponent extends Component {
           <h2 className="blog-description">Implement your dreams, only after you know you're their designer</h2>
           <a href="https://github.com/gameFu" className="github-icon"><i className="fa fa-github" aria-hidden="true"></i></a>
         </div>
-      </div>
+      </header>
     )
   }
 }

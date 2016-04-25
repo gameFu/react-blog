@@ -5,6 +5,7 @@ import { connect } from 'react-redux'
 import * as DemoActions from '../actions/demo'
 
 import BlogHeaderComponent from '../components/blogHeaderComponent'
+import BlogContentComponent from '../components/blogContentComponent'
 import DevTools from "./DevTools"
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
     return (
       <div>
         <BlogHeaderComponent />
+        <BlogContentComponent />
       </div>
     )
   }
