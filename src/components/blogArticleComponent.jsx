@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react'
+import {Link} from 'react-router'
 
 class BlogArticleComponent extends Component{
   render(){
@@ -7,7 +8,7 @@ class BlogArticleComponent extends Component{
         <div className="article-item">
           <header className='post-header'>
             <h2 className='post-title' itemProp='name'>
-              <a href= { this.props.postUrl } itemProp='url'>{ this.props.postTitle }</a>
+              <Link to="/article">{this.props.postTitle}</Link>
             </h2>
           </header>
           <section className="post-excerpt" itemProp='description' dangerouslySetInnerHTML={parseDescription(this.props.postDescription)} >
