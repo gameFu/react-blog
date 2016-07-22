@@ -1,0 +1,18 @@
+.logo-readium {
+  font-size: 3em;
+  color: black;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  z-index: 99;
+  i {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+}

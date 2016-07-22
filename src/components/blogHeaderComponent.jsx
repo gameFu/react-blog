@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 
 require ("../style/blog-header.scss");
+import LogoReadiumComponent from './logoReadiumComponent'
 
 class BlogHeaderComponent extends Component {
   render (){
@@ -14,10 +15,7 @@ class BlogHeaderComponent extends Component {
     }
     return (
       <header className="blog-header">
-        <a href = "#" className="logo-readium">
-          <i className="fa fa-home">
-          </i>
-        </a>
+        <LogoReadiumComponent/>
         <div className="teaserimage">
           <div className="teaserimage-image" style= {teaserimageStyle}>
         </div>

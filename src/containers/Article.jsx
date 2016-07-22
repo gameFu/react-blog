@@ -4,13 +4,13 @@ import { connect } from 'react-redux'
 
 import * as DemoActions from '../actions/demo'
 
-import DemoComponent from '../components/demoComponent'
+import ArticleComponent from '../components/articleComponent'
 
 
 class Article extends Component {
   render (){
     return (
-      <DemoComponent/>
+      <ArticleComponent/>
     )
   }
 }

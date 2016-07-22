@@ -1,0 +1,110 @@
+.content {
+  width: 100%;
+  max-height: 640px;
+  margin: 0, auto;
+  box-sizing: border-box;
+  article {
+    padding: 40px 0;
+    &:last-child {
+      border-bottom: 0px;
+    }
+    .article-image {
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-indent: -9999px;
+      padding-top: 33%;
+      z-index: 1;
+    }
+    .post-meta {
+      position: absolute;
+      bottom: 80px;
+      left: 30%;
+      right: 30%;
+      z-index: 9;
+      font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+      box-sizing: border-box;
+      .post-title {
+        // text-align: center;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.04em;
+        font-size: 50px;
+        line-height: 1.1;
+        color: #fff;
+        margin-bottom: 16px;
+        text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
+      }
+      .post-text-meta {
+        color: rgba(255, 255, 255, 0.75);
+        letter-spacing: -0.02em;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 1px rgba(0, 0, 0, 0.5);
+        font-size: 14px;
+        overflow: hidden;
+        font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+        height: 30px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        .author-image {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          line-height: 40px;
+          margin-right: 8px;
+          margin-bottom: -10px;
+          float: left;
+          background-size: cover;
+          border-radius: 100%;
+          text-indent: -9999px;
+        }
+        .author-name {
+          display: inline;
+        }
+        h4 {
+          -webkit-margin-before: 1.33em;
+          -webkit-margin-after: 1.33em;
+          -webkit-margin-start: 0px;
+          -webkit-margin-end: 0px;
+          line-height: 30px;
+          margin-right: 6px;
+          font-weight: bold;
+        }
+        time {
+          margin-left: 6px;
+        }
+      }
+      .down {
+        text-align: center;
+        .topofpage{
+          text-decoration: underline;
+          i {
+            font-size: 32px;
+            margin: 64px auto 0;
+            color: rgba(255, 255, 255, 0.75);
+          }
+        }
+      }
+    }
+    .post-center {
+      padding-top: 782px;
+      width: 100px;
+      font-family: Linux Libertine;
+      color: #333;
+      p {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0;
+        padding-bottom: 30px;
+        color: #333;
+        width: 624px;
+      }
+    }
+  }
+}

@@ -18,6 +18,9 @@ module.exports = {
   },
   //调试工具
   devtool: 'source-map',
+  devServer: {
+      historyApiFallback: true
+  },
   module: {
     loaders: [
       {

@@ -31,8 +31,8 @@ class BlogContentComponent extends Component {
     return (
       <main className="content" role="main">
         <div className="cr">
-          { data.map(function(d){
-            return <BlogArticleComponent postUrl= {d.postUrl} postTitle= {d.postTitle} postDescription= {d.postDescription} />
+          { data.map(function(d, i){
+            return <BlogArticleComponent key = { i } postUrl= {d.postUrl} postTitle= {d.postTitle} postDescription= {d.postDescription} />
           }) }
         </div>
       </main>

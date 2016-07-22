@@ -1,0 +1,38 @@
+.buttom-closer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  .buttom-closer-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-indent: -9999px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .inner {
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    max-width: 640px;
+    padding: 120px 0 90px;
+    text-align: center;
+    margin: 0 auto;
+    .blog-title {
+      margin: 0;
+      padding: 0 0 10px;
+      font-size: 50px;
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: -2px;
+      outline: 0;
+      line-height: 50px;
+      word-break: break-word;
+      color: #fff;
+      text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
