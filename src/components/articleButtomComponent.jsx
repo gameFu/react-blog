@@ -12,7 +12,9 @@ class ArticleButtomComponent extends Component {
       <div className="buttom-closer">
         <div className="buttom-closer-image" style={buttomeImage}>Image</div>
         <div className="inner">
-          <h1 className="bolg-title">gameFu</h1>
+          <h1 className="blog-title">gameFu</h1>
+          <h2 className="blog-description">Implement your dreams, only after you know you're their designer</h2>
+          <a href="/" className="btn">Back to Overview</a>
         </div>
       </div>
     )

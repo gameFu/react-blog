@@ -13,6 +13,9 @@ class ArticleComponent extends Component{
     let author_image = {
       backgroundImage: "url('/src/assets/images/user_avatar.jpeg')"
     }
+    let buttomeImage = {
+        backgroundImage: "url('/src/assets/images/article-buttom.jpg')"
+    }
     return (
       <div>
         <main className='content' role="main">
@@ -39,7 +42,7 @@ class ArticleComponent extends Component{
            </section>
           </article>
         </main>
-        <ArticleButtomComponent/>
+        <ArticleButtomComponent/>          
       </div>
     );
   }
